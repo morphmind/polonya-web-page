@@ -1,0 +1,314 @@
+{
+  "meta": {
+    "siteName": "Smile&Holiday",
+    "siteDescription": "Smile&Holiday — Premium dental care in Fethiye, Turkey for Polish patients. Free VIP transfer and luxury accommodation included."
+  },
+  "nav": {
+    "home": "Home",
+    "treatments": "Treatments",
+    "dentalTourism": "Dental Tourism",
+    "beforeAfter": "Before & After",
+    "vipTransfer": "VIP Transfer and Accommodation",
+    "blog": "Blog",
+    "about": "About",
+    "contact": "Contact"
+  },
+  "common": {
+    "freeConsultation": "Free Consultation",
+    "whatsappChat": "Chat on WhatsApp",
+    "callUs": "Call Us",
+    "learnMore": "Learn More",
+    "viewAll": "View All",
+    "readMore": "Read More",
+    "bookNow": "Book Now",
+    "sendMessage": "Send Message",
+    "getStarted": "Get Started",
+    "backToHome": "Back to Home",
+    "loading": "Loading...",
+    "resultsDisclaimer": "Results may vary. Each patient's outcome depends on individual conditions.",
+    "language": "Language",
+    "switchLanguage": "Switch Language"
+  },
+  "hero": {
+    "title": "Your Perfect Smile Awaits in Fethiye",
+    "subtitle": "Premium dental care for Polish patients with free VIP transfer and luxury accommodation",
+    "cta1": "Get Free Consultation",
+    "cta2": "Chat on WhatsApp",
+    "trustBadge1": "500+ Happy Polish Patients",
+    "trustBadge2": "15+ Years Experience",
+    "trustBadge3": "Free VIP Transfer & Stay",
+    "trustBadge4": "EU-Standard Materials"
+  },
+  "googleReviews": {
+    "onGoogle": "on Google",
+    "viewReviews": "View our reviews"
+  },
+  "howItWorks": {
+    "title": "How It Works",
+    "subtitle": "Your dental journey from Poland to Fethiye in 4 simple steps",
+    "step1": {
+      "title": "Free Online Consultation",
+      "description": "Send us your dental photos or X-ray. Our dentists will prepare a personalized treatment plan and quote within 24 hours."
+    },
+    "step2": {
+      "title": "Plan Your Trip",
+      "description": "Once you approve the plan, we arrange your free VIP airport transfer and luxury apartment in Fethiye."
+    },
+    "step3": {
+      "title": "Get Your Treatment",
+      "description": "Enjoy your treatment in our modern clinic. Free daily transfers between your apartment and the clinic."
+    },
+    "step4": {
+      "title": "Smile & Explore",
+      "description": "Get your perfect smile and enjoy beautiful Fethiye. We provide full aftercare support even after you return to Poland."
+    }
+  },
+  "treatments": {
+    "title": "Our Treatments",
+    "subtitle": "World-class dental treatments at a fraction of European prices",
+    "implants": {
+      "title": "Dental Implants",
+      "description": "High-quality titanium implants with lifetime warranty. Save up to 70% compared to Polish prices.",
+      "features": [
+        "Premium titanium implants",
+        "Lifetime warranty",
+        "Same-day implants available",
+        "3D guided surgery"
+      ]
+    },
+    "veneers": {
+      "title": "Porcelain Veneers",
+      "description": "Transform your smile with ultra-thin porcelain veneers. Natural-looking results that last 15+ years.",
+      "features": [
+        "E-max & Zirconia options",
+        "Minimal tooth preparation",
+        "Color-matched perfectly",
+        "Completed in 5-7 days"
+      ]
+    },
+    "crowns": {
+      "title": "Dental Crowns",
+      "description": "Restore damaged teeth with premium zirconia or porcelain crowns for a natural look.",
+      "features": [
+        "Zirconia & porcelain",
+        "Same-day CEREC option",
+        "Perfect color match",
+        "10-15 year durability"
+      ]
+    },
+    "whitening": {
+      "title": "Teeth Whitening",
+      "description": "Professional in-office whitening for a brighter, more confident smile.",
+      "features": [
+        "Up to 8 shades whiter",
+        "1-hour procedure",
+        "Long-lasting results",
+        "Safe & pain-free"
+      ]
+    },
+    "smileMakeover": {
+      "title": "Smile Makeover",
+      "description": "Complete smile transformation combining multiple treatments tailored to your goals.",
+      "features": [
+        "Customized treatment plan",
+        "Multiple treatments combined",
+        "Dramatic transformation",
+        "Natural-looking results"
+      ]
+    },
+    "allTreatments": "View All Treatments",
+    "startingFrom": "Starting from",
+    "perTooth": "per tooth"
+  },
+  "dentalTourism": {
+    "title": "All-Inclusive Dental Tourism from Poland",
+    "subtitle": "Everything arranged for you — just book your flight",
+    "intro": "We offer a complete dental tourism experience for patients traveling from Poland to Fethiye. From the moment you land at Dalaman Airport, we take care of everything.",
+    "included": {
+      "title": "What's Included",
+      "transfer": "Free VIP airport transfer (Dalaman Airport ↔ Fethiye)",
+      "accommodation": "Free luxury apartment stay during treatment",
+      "dailyTransfer": "Free daily clinic ↔ apartment transfer",
+      "consultation": "Free initial consultation & treatment plan",
+      "aftercare": "Post-treatment care & follow-up",
+      "support": "Polish & English speaking patient coordinator"
+    },
+    "whyFethiye": {
+      "title": "Why Fethiye?",
+      "point1": "Beautiful Mediterranean coastal town",
+      "point2": "Direct flights from major Polish cities",
+      "point3": "Warm climate year-round",
+      "point4": "Rich history & amazing cuisine",
+      "point5": "Affordable luxury destination"
+    }
+  },
+  "beforeAfter": {
+    "title": "Before & After Gallery",
+    "subtitle": "See the real results from our patients",
+    "categories": {
+      "all": "All",
+      "implants": "Implants",
+      "veneers": "Veneers",
+      "crowns": "Crowns",
+      "whitening": "Whitening",
+      "smileMakeover": "Smile Makeover"
+    }
+  },
+  "vipTransfer": {
+    "title": "VIP Transfer & Luxury Accommodation",
+    "subtitle": "Travel in comfort, stay in luxury — completely free",
+    "transferTitle": "VIP Airport Transfer",
+    "transferDesc": "Our private VIP vehicles pick you up directly from Dalaman Airport and drive you to your luxury apartment in Fethiye. The same service is available for your return journey.",
+    "accommodationTitle": "Luxury Apartment Stay",
+    "accommodationDesc": "Stay in our fully furnished luxury apartments in the heart of Fethiye. Modern amenities, beautiful views, and just minutes from the clinic.",
+    "dailyTransferTitle": "Daily Clinic Transfer",
+    "dailyTransferDesc": "Every treatment day, our driver takes you from your apartment to the clinic and back. No taxi costs, no navigation stress.",
+    "apartmentGalleryTitle": "Apartment Gallery",
+    "features": [
+      "Air-conditioned luxury vehicles",
+      "Professional English-speaking drivers",
+      "Fully furnished modern apartments",
+      "Wi-Fi, kitchen, and laundry included",
+      "Central Fethiye location",
+      "24/7 patient support line"
+    ]
+  },
+  "blog": {
+    "title": "Blog & Dental Tips",
+    "subtitle": "Expert insights on dental tourism and oral health",
+    "readMore": "Read More",
+    "recentPosts": "Recent Posts",
+    "categories": "Categories",
+    "allPosts": "All Posts",
+    "searchPlaceholder": "Search articles...",
+    "noPosts": "No posts found.",
+    "publishedOn": "Published on",
+    "minRead": "min read"
+  },
+  "about": {
+    "title": "About Our Clinic",
+    "subtitle": "Modern dentistry with a personal touch in beautiful Fethiye",
+    "story": "Founded with a vision to provide world-class dental care accessible to international patients, our clinic in Fethiye combines cutting-edge technology with warm Turkish hospitality. Over the past 15 years, we have welcomed thousands of patients from Poland and across Europe.",
+    "mission": "Our mission is to deliver premium dental treatments at fair prices while ensuring every patient feels safe, comfortable, and cared for — from their first consultation to their last check-up.",
+    "values": {
+      "title": "Our Values",
+      "quality": "Uncompromising Quality",
+      "qualityDesc": "We use only EU-certified materials and the latest dental technology.",
+      "transparency": "Full Transparency",
+      "transparencyDesc": "Clear pricing with no hidden fees. Your treatment plan is agreed before you travel.",
+      "care": "Patient-First Care",
+      "careDesc": "Every patient receives personalized attention and a dedicated coordinator.",
+      "trust": "Trust & Safety",
+      "trustDesc": "Fully licensed clinic with internationally trained dentists."
+    },
+    "stats": {
+      "patients": "Happy Patients",
+      "experience": "Years Experience",
+      "treatments": "Treatments Done",
+      "rating": "Patient Rating"
+    }
+  },
+  "contact": {
+    "title": "Contact Us",
+    "subtitle": "Ready for your new smile? Get in touch today.",
+    "form": {
+      "name": "Full Name",
+      "email": "Email Address",
+      "phone": "Phone Number",
+      "phonePlaceholder": "+48 xxx xxx xxx",
+      "treatment": "Interested Treatment",
+      "selectTreatment": "Select a treatment",
+      "dates": "Preferred Travel Dates",
+      "message": "Your Message",
+      "messagePlaceholder": "Tell us about your dental needs...",
+      "privacyConsent": "I have read and accept the Privacy Policy",
+      "dataConsent": "I consent to the processing of my personal data for the purpose of receiving dental treatment information (GDPR compliant)",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "success": "Thank you! Your message has been sent successfully.",
+      "successSub": "Our team will contact you within 24 hours.",
+      "whatsappRedirect": "Or chat with us directly on WhatsApp",
+      "error": "Something went wrong. Please try again."
+    },
+    "info": {
+      "address": "Tuzla Mahallesi, Mustafa Kemal Bulvarı No:34, Fethiye, Muğla, Turkey",
+      "phone": "+90 542 895 5470",
+      "email": "info@smileandholiday.com",
+      "hours": "Mon-Sat: 09:00 - 18:00"
+    }
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Common questions from our Polish patients",
+    "q1": "How much can I save on dental treatment in Turkey?",
+    "a1": "On average, patients from Poland save 50-70% compared to local prices.",
+    "q2": "Is dental treatment in Turkey safe?",
+    "a2": "Absolutely. Our clinic uses EU-certified materials, state-of-the-art equipment, and our dentists are internationally trained. Turkey is one of the world's top destinations for dental tourism.",
+    "q3": "How long do I need to stay in Fethiye?",
+    "a3": "Depending on your treatment, typically 5-10 days. Simple procedures like veneers take 5-7 days, while implant treatments may require two visits of 3-5 days each.",
+    "q4": "Is the airport transfer really free?",
+    "a4": "Yes! We provide completely free VIP transfer from Dalaman Airport to your apartment in Fethiye and back. We also provide free daily transfers between your apartment and our clinic.",
+    "q5": "What about accommodation?",
+    "a5": "We offer free luxury apartment accommodation throughout your treatment. The apartments are fully furnished with Wi-Fi, kitchen, and laundry facilities in central Fethiye.",
+    "q6": "Do you speak Polish or English?",
+    "a6": "Yes, we have Polish and English speaking patient coordinators who will assist you throughout your entire journey — from initial consultation to aftercare.",
+    "q7": "What if I need follow-up treatment after returning to Poland?",
+    "a7": "We provide detailed aftercare instructions and remain available via WhatsApp and email. If follow-up treatment is needed in Turkey, we cover your accommodation again.",
+    "q8": "How do I get started?",
+    "a8": "Simply send us your dental X-ray or photos via WhatsApp or our contact form. We'll provide a free consultation and detailed treatment plan within 24 hours."
+  },
+  "footer": {
+    "description": "Smile&Holiday — Premium dental clinic in Fethiye, Turkey. Specializing in dental tourism for patients from Poland. Free VIP transfer and luxury accommodation included.",
+    "quickLinks": "Quick Links",
+    "treatments": "Treatments",
+    "legal": "Legal",
+    "privacyPolicy": "Privacy Policy",
+    "cookiePolicy": "Cookie Policy",
+    "termsConditions": "Terms & Conditions",
+    "kvkk": "KVKK Notice",
+    "medicalDisclaimer": "Medical Disclaimer",
+    "allRightsReserved": "All rights reserved.",
+    "followUs": "Follow Us"
+  },
+  "cookie": {
+    "title": "Cookie Settings",
+    "description": "We use cookies to improve your experience. You can manage your preferences below.",
+    "acceptAll": "Accept All",
+    "rejectAll": "Reject All",
+    "managePreferences": "Manage Preferences",
+    "necessary": "Necessary Cookies",
+    "necessaryDesc": "Required for the website to function properly.",
+    "analytics": "Analytics Cookies",
+    "analyticsDesc": "Help us understand how visitors interact with our website.",
+    "marketing": "Marketing Cookies",
+    "marketingDesc": "Used to deliver relevant advertisements.",
+    "savePreferences": "Save Preferences"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "description": "Sorry, the page you're looking for doesn't exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last updated: February 2026"
+    },
+    "cookiePolicy": {
+      "title": "Cookie Policy",
+      "lastUpdated": "Last updated: February 2026"
+    },
+    "termsConditions": {
+      "title": "Terms & Conditions",
+      "lastUpdated": "Last updated: February 2026"
+    },
+    "kvkk": {
+      "title": "KVKK Disclosure Notice",
+      "lastUpdated": "Last updated: February 2026"
+    },
+    "medicalDisclaimer": {
+      "title": "Medical Disclaimer",
+      "lastUpdated": "Last updated: February 2026"
+    }
+  }
+}

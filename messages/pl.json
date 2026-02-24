@@ -1,0 +1,289 @@
+{
+  "meta": {
+    "siteName": "Smile&Holiday",
+    "siteDescription": "Smile&Holiday — Najwyższej jakości opieka stomatologiczna w Fethiye, Turcja, dla pacjentów z Polski. Bezpłatny transfer VIP i luksusowy apartament w cenie."
+  },
+  "nav": {
+    "home": "Strona główna",
+    "treatments": "Zabiegi",
+    "dentalTourism": "Turystyka Stomatologiczna",
+    "beforeAfter": "Przed i Po",
+    "vipTransfer": "VIP Transfer i Konaklama",
+    "blog": "Blog",
+    "about": "O nas",
+    "contact": "Kontakt"
+  },
+  "common": {
+    "freeConsultation": "Bezpłatna konsultacja",
+    "whatsappChat": "Czat na WhatsApp",
+    "callUs": "Zadzwoń do nas",
+    "learnMore": "Dowiedz się więcej",
+    "viewAll": "Zobacz wszystko",
+    "readMore": "Czytaj więcej",
+    "bookNow": "Zarezerwuj teraz",
+    "sendMessage": "Wyślij wiadomość",
+    "getStarted": "Rozpocznij",
+    "backToHome": "Powrót na stronę główną",
+    "loading": "Ładowanie...",
+    "resultsDisclaimer": "Wyniki mogą się różnić. Efekt leczenia zależy od indywidualnych warunków pacjenta.",
+    "language": "Język",
+    "switchLanguage": "English"
+  },
+  "hero": {
+    "title": "Twój Idealny Uśmiech Czeka w Fethiye",
+    "subtitle": "Najwyższej jakości opieka stomatologiczna dla pacjentów z Polski z bezpłatnym transferem VIP i luksusowym zakwaterowaniem",
+    "cta1": "Bezpłatna Konsultacja",
+    "cta2": "Czat na WhatsApp",
+    "trustBadge1": "500+ Zadowolonych Polskich Pacjentów",
+    "trustBadge2": "15+ Lat Doświadczenia",
+    "trustBadge3": "Bezpłatny Transfer VIP i Pobyt",
+    "trustBadge4": "Materiały Standardu UE"
+  },
+  "googleReviews": {
+    "onGoogle": "w Google",
+    "viewReviews": "Zobacz nasze opinie"
+  },
+  "howItWorks": {
+    "title": "Jak to działa?",
+    "subtitle": "Twoja podróż stomatologiczna z Polski do Fethiye w 4 prostych krokach",
+    "step1": {
+      "title": "Bezpłatna Konsultacja Online",
+      "description": "Wyślij nam zdjęcia swoich zębów lub zdjęcie RTG. Nasi dentyści przygotują spersonalizowany plan leczenia i wycenę w ciągu 24 godzin."
+    },
+    "step2": {
+      "title": "Zaplanuj Podróż",
+      "description": "Po zatwierdzeniu planu, organizujemy bezpłatny transfer VIP z lotniska i luksusowy apartament w Fethiye."
+    },
+    "step3": {
+      "title": "Rozpocznij Leczenie",
+      "description": "Ciesz się leczeniem w naszej nowoczesnej klinice. Bezpłatne codzienne transfery między apartamentem a kliniką."
+    },
+    "step4": {
+      "title": "Uśmiechnij się i Odkrywaj",
+      "description": "Zyskaj idealny uśmiech i ciesz się pięknym Fethiye. Zapewniamy pełną opiekę poza\u00adbiegową nawet po powrocie do Polski."
+    }
+  },
+  "treatments": {
+    "title": "Nasze Zabiegi",
+    "subtitle": "Światowej klasy zabiegi stomatologiczne za ułamek europejskich cen",
+    "implants": {
+      "title": "Implanty Stomatologiczne",
+      "description": "Najwyższej jakości implanty tytanowe z dożywotnią gwarancją. Oszczędź do 70% w porównaniu z cenami w Polsce.",
+      "features": ["Implanty tytanowe premium", "Dożywotnia gwarancja", "Implanty tego samego dnia", "Chirurgia 3D"]
+    },
+    "veneers": {
+      "title": "Licówki Porcelanowe",
+      "description": "Odmień swój uśmiech dzięki ultra-cienkim licówkom porcelanowym. Naturalnie wyglądające rezultaty na 15+ lat.",
+      "features": ["Opcje E-max i Cyrkon", "Minimalne szlifowanie zębów", "Idealnie dopasowany kolor", "Realizacja w 5-7 dni"]
+    },
+    "crowns": {
+      "title": "Korony Stomatologiczne",
+      "description": "Odbuduj uszkodzone zęby dzięki koronom cyrkonowym lub porcelanowym o naturalnym wyglądzie.",
+      "features": ["Cyrkon i porcelana", "Opcja CEREC tego samego dnia", "Idealne dopasowanie koloru", "Trwałość 10-15 lat"]
+    },
+    "whitening": {
+      "title": "Wybielanie Zębów",
+      "description": "Profesjonalne wybielanie gabinetowe dla jaśniejszego, pewniejszego uśmiechu.",
+      "features": ["Do 8 odcieni jaśniej", "Zabieg trwa 1 godzinę", "Długotrwałe efekty", "Bezpieczne i bezbolesne"]
+    },
+    "smileMakeover": {
+      "title": "Metamorfoza Uśmiechu",
+      "description": "Kompleksowa transformacja uśmiechu łącząca wiele zabiegów dostosowanych do Twoich celów.",
+      "features": ["Spersonalizowany plan leczenia", "Połączenie wielu zabiegów", "Spektakularna przemiana", "Naturalnie wyglądające rezultaty"]
+    },
+    "allTreatments": "Zobacz Wszystkie Zabiegi",
+    "startingFrom": "Ceny od",
+    "perTooth": "za ząb"
+  },
+  "dentalTourism": {
+    "title": "Turystyka Stomatologiczna All-Inclusive z Polski",
+    "subtitle": "Wszystko zorganizowane — wystarczy zarezerwować lot",
+    "intro": "Oferujemy kompleksową obsługę turystyki stomatologicznej dla pacjentów podróżujących z Polski do Fethiye. Od momentu lądowania na lotnisku Dalaman, zajmujemy się wszystkim.",
+    "included": {
+      "title": "Co jest wliczone w cenę",
+      "transfer": "Bezpłatny transfer VIP z lotniska (Dalaman ↔ Fethiye)",
+      "accommodation": "Bezpłatny pobyt w luksusowym apartamencie podczas leczenia",
+      "dailyTransfer": "Bezpłatny codzienny transfer klinika ↔ apartament",
+      "consultation": "Bezpłatna wstępna konsultacja i plan leczenia",
+      "aftercare": "Opieka po zabiegu i wizyty kontrolne",
+      "support": "Koordynator pacjenta mówiący po polsku i angielsku"
+    },
+    "whyFethiye": {
+      "title": "Dlaczego Fethiye?",
+      "point1": "Piękne nadmorskie miasto na Morzu Śródziemnym",
+      "point2": "Bezpośrednie loty z głównych polskich miast",
+      "point3": "Ciepły klimat przez cały rok",
+      "point4": "Bogata historia i niesamowita kuchnia",
+      "point5": "Luksus w przystępnej cenie"
+    }
+  },
+  "beforeAfter": {
+    "title": "Galeria Przed i Po",
+    "subtitle": "Zobacz prawdziwe rezultaty naszych pacjentów",
+    "categories": {
+      "all": "Wszystkie",
+      "implants": "Implanty",
+      "veneers": "Licówki",
+      "crowns": "Korony",
+      "whitening": "Wybielanie",
+      "smileMakeover": "Metamorfoza Uśmiechu"
+    }
+  },
+  "vipTransfer": {
+    "title": "VIP Transfer i Luksusowe Zakwaterowanie",
+    "subtitle": "Podróżuj komfortowo, mieszkaj luksusowo — całkowicie bezpłatnie",
+    "transferTitle": "VIP Transfer z Lotniska",
+    "transferDesc": "Nasze prywatne pojazdy VIP odbierają Cię bezpośrednio z lotniska Dalaman i dowożą do Twojego luksusowego apartamentu w Fethiye. Ta sama usługa jest dostępna w drodze powrotnej.",
+    "accommodationTitle": "Pobyt w Luksusowym Apartamencie",
+    "accommodationDesc": "Zamieszkaj w naszych w pełni umeblowanych luksusowych apartamentach w sercu Fethiye. Nowoczesne udogodnienia, piękne widoki i zaledwie kilka minut od kliniki.",
+    "dailyTransferTitle": "Codzienny Transfer do Kliniki",
+    "dailyTransferDesc": "Każdego dnia zabiegowego nasz kierowca zabiera Cię z apartamentu do kliniki i z powrotem. Żadnych kosztów taksówek, żadnego stresu.",
+    "apartmentGalleryTitle": "Galeria Apartamentów",
+    "features": [
+      "Klimatyzowane pojazdy luksusowe",
+      "Profesjonalni kierowcy mówiący po angielsku",
+      "W pełni umeblowane nowoczesne apartamenty",
+      "Wi-Fi, kuchnia i pralnia w cenie",
+      "Centralna lokalizacja w Fethiye",
+      "Linia wsparcia pacjenta 24/7"
+    ]
+  },
+  "blog": {
+    "title": "Blog i Porady Stomatologiczne",
+    "subtitle": "Ekspercka wiedza o turystyce stomatologicznej i zdrowiu jamy ustnej",
+    "readMore": "Czytaj więcej",
+    "recentPosts": "Najnowsze wpisy",
+    "categories": "Kategorie",
+    "allPosts": "Wszystkie wpisy",
+    "searchPlaceholder": "Szukaj artykułów...",
+    "noPosts": "Nie znaleziono wpisów.",
+    "publishedOn": "Opublikowano",
+    "minRead": "min czytania"
+  },
+  "about": {
+    "title": "O Naszej Klinice",
+    "subtitle": "Nowoczesna stomatologia z osobistym podejściem w pięknym Fethiye",
+    "story": "Założona z wizją zapewnienia światowej klasy opieki stomatologicznej dostępnej dla pacjentów międzynarodowych, nasza klinika w Fethiye łączy najnowocześniejszą technologię z ciepłą turecką gościnnością. Przez ostatnie 15 lat przyjęliśmy tysiące pacjentów z Polski i całej Europy.",
+    "mission": "Naszą misją jest dostarczanie najwyższej jakości zabiegów stomatologicznych w uczciwych cenach, zapewniając jednocześnie każdemu pacjentowi poczucie bezpieczeństwa, komfortu i troski — od pierwszej konsultacji do ostatniej wizyty kontrolnej.",
+    "values": {
+      "title": "Nasze Wartości",
+      "quality": "Bezkompromisowa Jakość",
+      "qualityDesc": "Używamy wyłącznie materiałów z certyfikatem UE i najnowszej technologii stomatologicznej.",
+      "transparency": "Pełna Przejrzystość",
+      "transparencyDesc": "Jasne ceny bez ukrytych opłat. Plan leczenia jest uzgadniany przed podróżą.",
+      "care": "Pacjent na Pierwszym Miejscu",
+      "careDesc": "Każdy pacjent otrzymuje indywidualną uwagę i dedykowanego koordynatora.",
+      "trust": "Zaufanie i Bezpieczeństwo",
+      "trustDesc": "W pełni licencjonowana klinika z dentystami przeszkolonymi za granicą."
+    },
+    "stats": {
+      "patients": "Zadowolonych Pacjentów",
+      "experience": "Lat Doświadczenia",
+      "treatments": "Wykonanych Zabiegów",
+      "rating": "Ocena Pacjentów"
+    }
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "subtitle": "Gotowy na nowy uśmiech? Skontaktuj się z nami już dziś.",
+    "form": {
+      "name": "Imię i nazwisko",
+      "email": "Adres e-mail",
+      "phone": "Numer telefonu",
+      "phonePlaceholder": "+48 xxx xxx xxx",
+      "treatment": "Interesujący zabieg",
+      "selectTreatment": "Wybierz zabieg",
+      "dates": "Preferowane daty podróży",
+      "message": "Twoja wiadomość",
+      "messagePlaceholder": "Opisz swoje potrzeby stomatologiczne...",
+      "privacyConsent": "Przeczytałem/am i akceptuję Politykę Prywatności",
+      "dataConsent": "Wyrażam zgodę na przetwarzanie moich danych osobowych w celu otrzymania informacji o leczeniu stomatologicznym (zgodne z RODO)",
+      "submit": "Wyślij wiadomość",
+      "sending": "Wysyłanie...",
+      "success": "Dziękujemy! Twoja wiadomość została wysłana pomyślnie.",
+      "successSub": "Nasz zespół skontaktuje się z Tobą w ciągu 24 godzin.",
+      "whatsappRedirect": "Lub napisz do nas bezpośrednio na WhatsApp",
+      "error": "Coś poszło nie tak. Spróbuj ponownie."
+    },
+    "info": {
+      "address": "Tuzla Mahallesi, Mustafa Kemal Bulvarı No:34, Fethiye, Muğla, Turcja",
+      "phone": "+90 542 895 5470",
+      "email": "info@smileandholiday.com",
+      "hours": "Pon-Sob: 09:00 - 18:00"
+    }
+  },
+  "faq": {
+    "title": "Najczęściej Zadawane Pytania",
+    "subtitle": "Częste pytania naszych polskich pacjentów",
+    "q1": "Ile mogę zaoszczędzić na leczeniu stomatologicznym w Turcji?",
+    "a1": "Średnio pacjenci z Polski oszczędzają 50-70% w porównaniu z cenami lokalnymi.",
+    "q2": "Czy leczenie stomatologiczne w Turcji jest bezpieczne?",
+    "a2": "Absolutnie tak. Nasza klinika używa materiałów z certyfikatem UE, najnowocześniejszego sprzętu, a nasi dentyści są przeszkoleni na arenie międzynarodowej. Turcja jest jednym z czołowych światowych kierunków turystyki stomatologicznej.",
+    "q3": "Jak długo muszę przebywać w Fethiye?",
+    "a3": "W zależności od zabiegu, zazwyczaj 5-10 dni. Proste zabiegi, takie jak licówki, trwają 5-7 dni, podczas gdy leczenie implantologiczne może wymagać dwóch wizyt po 3-5 dni każda.",
+    "q4": "Czy transfer z lotniska jest naprawdę bezpłatny?",
+    "a4": "Tak! Zapewniamy całkowicie bezpłatny transfer VIP z lotniska Dalaman do Twojego apartamentu w Fethiye i z powrotem. Zapewniamy również bezpłatne codzienne transfery między apartamentem a naszą kliniką.",
+    "q5": "A co z zakwaterowaniem?",
+    "a5": "Oferujemy bezpłatny pobyt w luksusowym apartamencie przez cały okres leczenia. Apartamenty są w pełni wyposażone, z Wi-Fi, kuchnią i pralnią, w centralnej części Fethiye.",
+    "q6": "Czy mówicie po polsku lub angielsku?",
+    "a6": "Tak, mamy koordynatorów pacjentów mówiących po polsku i angielsku, którzy będą Ci pomagać na każdym etapie — od wstępnej konsultacji po opiekę pozabiegową.",
+    "q7": "Co jeśli potrzebuję leczenia kontrolnego po powrocie do Polski?",
+    "a7": "Zapewniamy szczegółowe instrukcje dotyczące opieki pozabiegowej i pozostajemy dostępni przez WhatsApp i e-mail. Jeśli potrzebne jest leczenie kontrolne w Turcji, ponownie pokrywamy koszty zakwaterowania.",
+    "q8": "Jak zacząć?",
+    "a8": "Po prostu wyślij nam zdjęcie RTG lub zdjęcia swoich zębów przez WhatsApp lub nasz formularz kontaktowy. Zapewnimy bezpłatną konsultację i szczegółowy plan leczenia w ciągu 24 godzin."
+  },
+  "footer": {
+    "description": "Smile&Holiday — Klinika stomatologiczna premium w Fethiye, Turcja. Specjalizujemy się w turystyce stomatologicznej dla pacjentów z Polski. Bezpłatny transfer VIP i luksusowe zakwaterowanie w cenie.",
+    "quickLinks": "Szybkie linki",
+    "treatments": "Zabiegi",
+    "legal": "Prawne",
+    "privacyPolicy": "Polityka Prywatności",
+    "cookiePolicy": "Polityka Cookies",
+    "termsConditions": "Regulamin",
+    "kvkk": "Informacja KVKK",
+    "medicalDisclaimer": "Zastrzeżenie Medyczne",
+    "allRightsReserved": "Wszelkie prawa zastrzeżone.",
+    "followUs": "Obserwuj nas"
+  },
+  "cookie": {
+    "title": "Ustawienia Plików Cookie",
+    "description": "Używamy plików cookie, aby poprawić Twoje doświadczenia. Możesz zarządzać swoimi preferencjami poniżej.",
+    "acceptAll": "Zaakceptuj wszystkie",
+    "rejectAll": "Odrzuć wszystkie",
+    "managePreferences": "Zarządzaj preferencjami",
+    "necessary": "Niezbędne pliki cookie",
+    "necessaryDesc": "Wymagane do prawidłowego działania strony.",
+    "analytics": "Analityczne pliki cookie",
+    "analyticsDesc": "Pomagają nam zrozumieć, jak odwiedzający korzystają z naszej strony.",
+    "marketing": "Marketingowe pliki cookie",
+    "marketingDesc": "Służą do wyświetlania odpowiednich reklam.",
+    "savePreferences": "Zapisz preferencje"
+  },
+  "notFound": {
+    "title": "Strona nie znaleziona",
+    "description": "Przepraszamy, strona której szukasz nie istnieje lub została przeniesiona.",
+    "backHome": "Powrót na stronę główną"
+  },
+  "legal": {
+    "privacyPolicy": {
+      "title": "Polityka Prywatności",
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
+    },
+    "cookiePolicy": {
+      "title": "Polityka Cookies",
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
+    },
+    "termsConditions": {
+      "title": "Regulamin",
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
+    },
+    "kvkk": {
+      "title": "KVKK Aydınlatma Metni",
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
+    },
+    "medicalDisclaimer": {
+      "title": "Zastrzeżenie Medyczne",
+      "lastUpdated": "Ostatnia aktualizacja: Luty 2026"
+    }
+  }
+}
