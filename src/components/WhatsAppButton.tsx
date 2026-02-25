@@ -4,13 +4,12 @@ import { useTranslations } from 'next-intl';
 
 export default function WhatsAppButton() {
   const t = useTranslations('common');
-  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '';
-
-  if (!phoneNumber) return null;
+  const phoneNumber = process.env.NEXT_PUBLIC_WHATSAPP_NUMBER ?? '905428955470';
+  const waNumber = phoneNumber.replace(/\D/g, '');
 
   return (
     <a
-      href={`https://wa.me/${phoneNumber}`}
+      href={`https://wa.me/${waNumber}`}
       target="_blank"
       rel="noopener noreferrer"
       aria-label={t('whatsappChat')}

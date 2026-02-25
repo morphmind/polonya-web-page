@@ -20,6 +20,7 @@ export default function ContactForm() {
 
   const [submitted, setSubmitted] = useState(false);
   const [sending, setSending] = useState(false);
+  const [submitError, setSubmitError] = useState<string | null>(null);
   const [errors, setErrors] = useState<Record<string, boolean>>({});
 
   const [form, setForm] = useState({
@@ -56,9 +57,41 @@ export default function ContactForm() {
     if (!validate()) return;
 
     setSending(true);
-    await new Promise((r) => setTimeout(r, 1500));
-    setSending(false);
-    setSubmitted(true);
+    setSubmitError(null);
+
+    const formId = process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID;
+    if (!formId) {
+      setSubmitError('Form yapılandırması eksik');
+      setSending(false);
+      return;
+    }
+
+    try {
+      const res = await fetch(`https://formspree.io/f/${formId}`, {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({
+          _subject: `[Smile&Holiday] Yeni mesaj: ${form.name.trim()}`,
+          name: form.name.trim(),
+          email: form.email.trim(),
+          phone: form.phone.trim(),
+          treatment: form.treatment || '-',
+          dates: form.dates.trim() || '-',
+          message: form.message.trim(),
+        }),
+      });
+
+      const data = await res.json().catch(() => ({}));
+
+      if (!res.ok) {
+        throw new Error(data.error ?? 'Gönderim başarısız');
+      }
+      setSubmitted(true);
+    } catch (err) {
+      setSubmitError(err instanceof Error ? err.message : 'Bir hata oluştu');
+    } finally {
+      setSending(false);
+    }
   }
 
   if (submitted) {
@@ -218,6 +251,12 @@ export default function ContactForm() {
                   </span>
                 </label>
               </div>
+
+              {submitError && (
+                <div className="rounded-xl border border-red-200 bg-red-50 px-4 py-3 text-sm text-red-700">
+                  {t('form.error')}
+                </div>
+              )}
 
               {/* Submit */}
               <button
