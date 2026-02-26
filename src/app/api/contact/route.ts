@@ -1,10 +1,6 @@
 import { NextRequest, NextResponse } from 'next/server';
 import { Resend } from 'resend';
 
-const resend = new Resend(process.env.RESEND_API_KEY);
-const TO_EMAIL = process.env.CONTACT_EMAIL ?? 'info@smileandholiday.com';
-const FROM_EMAIL = process.env.RESEND_FROM ?? 'Smile&Holiday <onboarding@resend.dev>';
-
 export async function POST(request: NextRequest) {
   if (!process.env.RESEND_API_KEY) {
     return NextResponse.json(
@@ -12,6 +8,10 @@ export async function POST(request: NextRequest) {
       { status: 500 }
     );
   }
+
+  const resend = new Resend(process.env.RESEND_API_KEY);
+  const TO_EMAIL = process.env.CONTACT_EMAIL ?? 'info@smileandholiday.com';
+  const FROM_EMAIL = process.env.RESEND_FROM ?? 'Smile&Holiday <onboarding@resend.dev>';
 
   try {
     const body = await request.json();
