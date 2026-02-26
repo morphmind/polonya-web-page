@@ -59,9 +59,38 @@ export default function ContactForm() {
     setSending(true);
     setSubmitError(null);
 
+    const useApi = process.env.NEXT_PUBLIC_USE_CONTACT_API === 'true';
     const formId = process.env.NEXT_PUBLIC_FORMSPREE_FORM_ID;
+
+    const payload = {
+      name: form.name.trim(),
+      email: form.email.trim(),
+      phone: form.phone.trim(),
+      treatment: form.treatment || '-',
+      dates: form.dates.trim() || '-',
+      message: form.message.trim(),
+    };
+
+    if (useApi) {
+      try {
+        const res = await fetch('/api/contact', {
+          method: 'POST',
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify(payload),
+        });
+        const data = await res.json().catch(() => ({}));
+        if (!res.ok) throw new Error(data?.error ?? 'Gönderim başarısız');
+        setSubmitted(true);
+      } catch (err) {
+        setSubmitError(err instanceof Error ? err.message : 'Bir hata oluştu');
+      } finally {
+        setSending(false);
+      }
+      return;
+    }
+
     if (!formId) {
-      setSubmitError('Form yapılandırması eksik');
+      setSubmitError('Form yapılandırması eksik. .env.local içinde NEXT_PUBLIC_FORMSPREE_FORM_ID veya NEXT_PUBLIC_USE_CONTACT_API=true ve RESEND_API_KEY ekleyin.');
       setSending(false);
       return;
     }
@@ -69,22 +98,24 @@ export default function ContactForm() {
     try {
       const res = await fetch(`https://formspree.io/f/${formId}`, {
         method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
+        headers: {
+          'Content-Type': 'application/json',
+          Accept: 'application/json',
+        },
         body: JSON.stringify({
           _subject: `[Smile&Holiday] Yeni mesaj: ${form.name.trim()}`,
-          name: form.name.trim(),
-          email: form.email.trim(),
-          phone: form.phone.trim(),
-          treatment: form.treatment || '-',
-          dates: form.dates.trim() || '-',
-          message: form.message.trim(),
+          ...payload,
         }),
       });
 
       const data = await res.json().catch(() => ({}));
 
       if (!res.ok) {
-        throw new Error(data.error ?? 'Gönderim başarısız');
+        const msg =
+          Array.isArray(data?.errors) && data.errors.length > 0
+            ? data.errors.map((e: { message?: string }) => e.message).filter(Boolean).join(', ')
+            : data?.error ?? 'Gönderim başarısız';
+        throw new Error(msg || 'Gönderim başarısız');
       }
       setSubmitted(true);
     } catch (err) {
