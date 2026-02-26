@@ -7,7 +7,6 @@ import Image from 'next/image';
 const galleryItems = [
   { id: 1, before: '/images/gallery/patient1-before.png', after: '/images/gallery/patient1-after.png' },
   { id: 2, before: '/images/gallery/patient2-before.png', after: '/images/gallery/patient2-after.png' },
-  { id: 3, before: '/images/gallery/patient3-before.png', after: '/images/gallery/patient3-after.png' },
   { id: 4, before: '/images/gallery/patient4-before.png', after: '/images/gallery/patient4-after.png' },
   { id: 5, before: '/images/gallery/patient5-before.png', after: '/images/gallery/patient5-after.png' },
   { id: 6, before: '/images/gallery/patient6-before.png', after: '/images/gallery/patient6-after.png' },
